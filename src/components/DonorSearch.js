@@ -13,7 +13,7 @@ const DonorSearch = () => {
   // Handle the search action
   const handleSearch = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/find-donors', {
+      const response = await axios.post('https://bloodseaapp-2.onrender.com/find-donors', {
         pincode: pincode,
         bloodGroup: bloodGroup,
       });
