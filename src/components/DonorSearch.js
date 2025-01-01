@@ -38,7 +38,8 @@ const DonorSearch = () => {
           borderRadius: '10px',
           border: '1px solid rgba(47, 2, 29, 0.93)',
           width: '100%',  // Use full width on smaller screens
-          maxWidth: '400px',  // Limit to 400px on larger screens
+          maxWidth: '300px',  // Limit to 400px on larger screens
+        
         }}
       >
         <h2 className="text-center mb-4" style={{ color: 'white' }}>
@@ -47,7 +48,7 @@ const DonorSearch = () => {
 
         {/* Input for Pincode */}
         <div className="form-group mb-3">
-          <label htmlFor="pincode">Pincode:</label>
+       
           <input
             type="text"
             className="form-control"
@@ -60,7 +61,7 @@ const DonorSearch = () => {
 
         {/* Select for Blood Group */}
         <div className="form-group mb-3">
-          <label htmlFor="bloodGroup">Blood Group:</label>
+        
           <select
             className="form-control"
             id="bloodGroup"
@@ -68,7 +69,7 @@ const DonorSearch = () => {
             onChange={(e) => setBloodGroup(e.target.value)}
           >
             <option value="">Select Blood Group</option>
-            <option value="A RhD positive (A+)">A RhD positive (A+)</option>
+            <option value="A RhD positive (A+">A RhD positive (A+)</option>
             <option value="A RhD negative (A-)">A RhD negative (A-)</option>
             <option value="B RhD positive (B+)">B RhD positive (B+)</option>
             <option value="B RhD negative (B-)">B RhD negative (B-)</option>

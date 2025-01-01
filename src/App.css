@@ -12,6 +12,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body {
+  background-color: rgb(232, 228, 162); /* Cream color */
+  margin: 0; /* Ensures no extra margin around the body */
+  padding: 0; /* Ensures no extra padding around the body */
+ /* Optional: Set a default font */
+}
 
 .App-header {
   background-color: #282c34;
